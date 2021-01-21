@@ -142,3 +142,50 @@ body {
   font-weight: bolder;
   text-shadow: 5px 10px grey;
 }
+#fish {
+   position: absolute;
+   top:10%;
+   left: 15%;
+   transform: translate(-50%, -50%);
+   animation: 10s move;
+}
+#body
+{
+   position: absolute;
+   top:10%;
+   left: 15%;
+   transform: translate(-50%, -50%);
+   border-radius: 50%;
+   width:150px;
+   height:75px;
+   background-color:red;
+
+}
+#fin {
+   position: absolute;
+   top:50%;
+   left: 0%;
+   transform: translate(-50%, -50%);
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+
+    border-left: 50px solid red;
+}
+#eye {
+    position: absolute;
+    top:40%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+@keyframes move {
+    0% {
+        left: 15%;
+    }
+    100% {
+        left: 55%;
+    }
+}
