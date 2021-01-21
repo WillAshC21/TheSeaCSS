@@ -1,0 +1,144 @@
+body {
+  background-color: #3385ff;
+}
+.sea {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto
+  auto auto auto auto auto auto auto auto auto auto;
+}
+.bubbles {
+  margin: -72% auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-color: #fff;
+  border-width: thin;
+  border-style: solid;
+  background: rgba(255,255,255,0.25);
+}
+#bubble5 {
+  animation-delay: 1s;
+  width: 30px;
+  height: 30px;
+    animation: 10s float infinite;
+}
+#bubble1 {
+  animation-delay: 3s;
+  width: 10px;
+  height: 10px;
+  animation: 5s float infinite;
+}
+#bubble2 {
+  animation-delay: 2s;
+  width: 5px;
+  height: 5px;
+  animation: 2s float infinite;
+}
+#bubble4 {
+  animation-delay: 10s;
+  width: 25px;
+  height: 25px;
+    animation: 4s float infinite;
+}
+#bubble8 {
+  animation-delay: 8s;
+  width: 1px;
+  height: 1px;
+  animation: 12s float infinite;
+}
+#bubble3 {
+  animation-delay: 20s;
+  width: 50px;
+  height: 50px;
+  animation: 9s float infinite;
+}
+#bubble9 {
+  width: 9px;
+  height: 9px;
+  animation: 7s float infinite;
+}
+#bubble13 {
+  animation-delay: 19s;
+  width: 30px;
+  height: 30px;
+  animation: 15s float infinite;
+}
+#bubble10 {
+  animation-delay: 4s;
+  width: 4px;
+  height: 4px;
+    animation: 16s float infinite;
+}
+#bubble7 {
+  width: 1px;
+  height: 1px;
+  animation: 10s float infinite;
+}
+#bubble11 {
+  animation-delay: 11s;
+  width: 11px;
+  height: 11px;
+  animation: 5s float infinite;
+}
+#bubble15 {
+  animation-delay: 4s;
+  width: 4px;
+  height: 4px;
+    animation: 3s float infinite;
+}
+#bubble18 {
+  animation-delay: 8s;
+  width: 1px;
+  height: 1px;
+  animation: 6s float infinite;
+}
+#bubble19 {
+  animation-delay: 13s;
+  width: 13px;
+  height: 13px;
+    animation: 10s float infinite;
+}
+#bubble14 {
+  width: 16px;
+  height: 16px;
+    animation: 9s float infinite;
+}
+#bubble12 {
+  animation-delay: 12s;
+  width: 12px;
+  height: 12px;
+    animation: 15s float infinite;
+}
+#bubble17 {
+  animation-delay: 1s;
+  width: 2px;
+  height: 2px;
+    animation: 1s float infinite;
+}
+#bubble20 {
+  animation-delay: 50s;
+  width: 60px;
+  height: 60px;
+    animation: 2s float infinite;
+}
+@keyframes float {
+      0% {
+          margin: 1200% auto;
+      }
+      100% {
+          margin: -72% auto;
+          border-style: solid;
+      }
+}
+
+#sea-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, sans-serif;
+  font-size: 64px;
+  color: #fff;
+  font-weight: bolder;
+  text-shadow: 5px 10px grey;
+}
